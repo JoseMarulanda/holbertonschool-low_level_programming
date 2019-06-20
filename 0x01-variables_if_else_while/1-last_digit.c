@@ -4,16 +4,14 @@
 /**
  *main - Entry point
  *
- *This program will make a random numer and tells you 
+ *This program will make a random numer and tells you
  *if the last digit is greater than five, less than 6 or equal 0
  */
 int main(void)
 {
 int n;
-
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-
 if ((n % 10) == 0)
 printf("Last digit of %d is %d and is 0\n", n, n % 10);
 else if ((n % 10) > 5)
