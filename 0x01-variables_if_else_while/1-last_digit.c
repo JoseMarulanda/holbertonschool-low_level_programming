@@ -1,9 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
+/**
+ * main - This program give a random number
+ * and tells you if the last number is greater
+ * less or equal than 0
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 int n;
