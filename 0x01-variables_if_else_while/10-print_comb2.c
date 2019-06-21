@@ -6,7 +6,7 @@
  *from 00 to 99
  *Return: 0
  */
-in main(void)
+int main(void)
 {
 int num = 0;
 
