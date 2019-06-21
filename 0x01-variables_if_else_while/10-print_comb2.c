@@ -2,7 +2,7 @@
 /**
  *main - Entry point
  *
- *Description: this program prints the numbers
+ *this program prints the numbers
  *from 00 to 99
  *Return: 0
  */
