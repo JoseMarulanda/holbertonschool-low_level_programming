@@ -11,7 +11,7 @@ char let = 'z';
 while (let >= 'a')
 {
 putchar(let);
-let++;
+let--;
 }
 putchar('\n');
 return (0);
