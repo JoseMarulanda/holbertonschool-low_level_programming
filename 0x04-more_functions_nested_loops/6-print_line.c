@@ -8,9 +8,9 @@ void print_line(int n)
 {
 char c;
 if (n > 0)
-for (c = 0; c <= n; c++)
+for (c = 0; c < n; c++)
 {
-_putchar ('_');
+_putchar (95);
 }
 _putchar ('\n');
 }
