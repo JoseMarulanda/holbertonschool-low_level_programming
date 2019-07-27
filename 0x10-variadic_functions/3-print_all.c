@@ -29,8 +29,8 @@ void p_float(va_list f)
 }
 
 /**
- *
- *
+ * p_string - print strings
+ * @s: string
  */
 void p_string(va_list s)
 {
