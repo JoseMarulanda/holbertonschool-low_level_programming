@@ -7,8 +7,6 @@
  * @valid: the character representing the data type
  * @f: pointer to function
  *
- * Description: this structure is to identify the data type
- * for the print all function
  */
 typedef struct validtypes
 {
