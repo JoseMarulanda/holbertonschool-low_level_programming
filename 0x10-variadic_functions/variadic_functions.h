@@ -1,9 +1,16 @@
 #ifndef VARIADIC_FUNCTIONS
 #define VARIADIC_FUNCTIONS
 #include <stdarg.h>
-#define VALIDTYPESCONDITIONAL(i) (format[i] == 'c' || format[i] == 'i' || format[i] == 'f' || format[i] == 's')
 
-typedef struct validTypes
+/**
+ * struct validtypes - defines that representation of the type
+ * @valid: the character representing the data type
+ * @f: pointer to function
+ *
+ * Description: this structure is to identify the data type
+ * for the print all function
+ */
+typedef struct validtypes
 {
 	char *valid;
 	void (*f)();

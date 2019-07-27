@@ -63,7 +63,7 @@ void print_all(const char * const format, ...)
 	i = j = 0;
 	separador = "";
 	va_start(argp, format);
-	while (format && format[i])
+	while (format != NULL && format[i] != '\0')
 	{
 		j = 0;
 		while (j < 4)
@@ -80,5 +80,3 @@ void print_all(const char * const format, ...)
 	}
 	printf("\n");
 }
-
-
