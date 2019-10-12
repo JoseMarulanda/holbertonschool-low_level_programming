@@ -23,7 +23,7 @@ hash_table_t *hash_table_create(unsigned long int size)
 		free(ht);
 		return (NULL);
 	}
-	for (index = 0; index < size; i++)
+	for (index = 0; index < size; index++)
 		ht->array[index] = NULL;
 	return (ht);
 }
