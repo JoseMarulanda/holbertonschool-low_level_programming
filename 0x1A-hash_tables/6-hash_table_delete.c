@@ -1,5 +1,5 @@
 #include "hash_tables.h"
-/***
+/**
  * hash_table_delete - deletes a hash table.
  * @ht: is the hash table
  *
@@ -10,7 +10,7 @@ void hash_table_delete(hash_table_t *ht)
 	hash_node_t *node;
 	int index;
 
-	if ( ht == NULL)
+	if (ht == NULL)
 		return;
 	while (index < ht->size)
 	{
