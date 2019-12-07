@@ -5,10 +5,10 @@
 /**
  * binary_tree_uncle -  finds the uncle of a node
  * @node: is a pointer to the node to find the uncle
- * return: the uncle
+ * Return: the uncle
  */
 
-binary_tree_t *binary_tree_uncle(binary_tree_t *node);
+binary_tree_t *binary_tree_uncle(binary_tree_t *node)
 {
 	binary_tree_t *parent;
 
