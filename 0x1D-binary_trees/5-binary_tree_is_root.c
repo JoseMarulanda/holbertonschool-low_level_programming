@@ -1,19 +1,19 @@
-#include <stdlib.h>
-#include <stdio.h>
 #include "binary_trees.h"
-
 /**
- * binary_tree_is_root - checks if a node is a root
- * @node:  is a pointer to the node to check
- * return: 1 if node is a root, otherwise 0
+ * binary_tree_is_root - checks if node is root
+ * @node: node to be checked
+ * Return: 1 on succes
  */
-
 int binary_tree_is_root(const binary_tree_t *node)
 {
-	if(node == NULL)
-		return(0);
-	if(node->left != NULL && node->right != NULL)
-		return(1);
+	int boool = 0;
+
+	if (!node)
+		return (0);
+	if (!(node->parent))
+		boool = 1;
 	else
-		return(0);
+		return (boool);
+	return (boool);
+
 }
